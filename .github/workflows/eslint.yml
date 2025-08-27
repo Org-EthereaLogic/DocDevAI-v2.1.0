@@ -12,10 +12,10 @@ on:
 jobs:
   eslint:
     name: Code Quality Check
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       pull-requests: write
-    runs-on: ubuntu-latest
     
     steps:
       - name: Checkout code
