@@ -12,6 +12,9 @@
 .claude/
 .github/instructions/codacy.instructions.md
 
+# Project design files
+devdocai-doc-suit/
+
 # Python
 __pycache__/
 *.py[cod]
